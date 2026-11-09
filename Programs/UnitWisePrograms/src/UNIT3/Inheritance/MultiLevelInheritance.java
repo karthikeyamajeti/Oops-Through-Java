@@ -1,3 +1,4 @@
+package UNIT3.Inheritance;
 //WAP to demonstrate Multilevel Inheritance.
 class Animal2{
     //Method of parent class Animal2.

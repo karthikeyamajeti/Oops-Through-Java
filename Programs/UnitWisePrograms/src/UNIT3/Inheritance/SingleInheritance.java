@@ -1,3 +1,4 @@
+package UNIT3.Inheritance;
 //WAP to demonstrate Single Inheritance.
 
 class Animal1{

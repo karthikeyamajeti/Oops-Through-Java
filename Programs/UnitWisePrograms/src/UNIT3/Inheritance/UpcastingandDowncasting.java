@@ -1,3 +1,4 @@
+package UNIT3.Inheritance;
 //WAP to demonstrate Upcasting and Downcasting using Inheritance.
 class Animal300{
     //Method of parent class Animal300.

@@ -1,3 +1,4 @@
+package UNIT3.ArrayOfObjects;
 //WAP to demonstrate Array of Objects.
 class Student1000{
     int rollNo;
