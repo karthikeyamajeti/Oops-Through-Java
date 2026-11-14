@@ -1,4 +1,4 @@
-package UNIT3.Arrays;
+package UNIT3.Arrays.TwoDimensionalArrays;
 //WAP in Java to perform addition of two matrices & display resultant matrix
 import java.util.Scanner;
 public class AdditionOfTwoMatrices {

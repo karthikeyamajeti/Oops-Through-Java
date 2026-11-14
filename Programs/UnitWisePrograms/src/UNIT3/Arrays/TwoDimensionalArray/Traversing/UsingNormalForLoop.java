@@ -1,6 +1,6 @@
-package UNIT3.Arrays;
+package UNIT3.Arrays.TwoDimensionalArray.Traversing;
 //WAP in Java to print a two-dimensional array using normal for loop.
-public class TraversingUsingNormalForLoop{
+public class UsingNormalForLoop{
 
     public static void main(String arg[]) {
 
