@@ -1,25 +1,39 @@
-// A Simple demonstration of abstract.
-abstract class A 
-{
-	abstract void callme();  
-	// concrete methods are still allowed in abstract classes
-	void callmetoo() {
-		System.out.println("This is a concrete method.");
-	}
+package UNIT3.Inheritance.AbstractClass;
+//WAP in Java to demonstrate abstract methods and concrete methods in an abstract class.
+//Defining an abstract class A
+abstract class A {
+
+    //Declaring an abstract method
+    abstract void callme();
+
+    //Defining a concrete method
+    void callmetoo() {
+        System.out.println("This is a concrete method.");
+    }
 }
- class B extends A 
-{
-	void callme() 
-	{
-		System.out.println("B's implementation of callme.");
-	}
+
+//Defining class B by extending abstract class A
+class B extends A {
+
+    //Implementing the abstract method of class A
+    void callme() {
+        System.out.println("B's implementation of callme.");
+    }
 }
-class AbstractDemo 
-{
-	public static void main(String args[]) 
-	{
-		B b = new B();
-		b.callme();
-		b.callmetoo();
-	}
+
+//Defining the main class
+public class AbstractDemo {
+
+    public static void main(String args[]) {
+
+        //Creating an object of class B
+        B b = new B();
+
+        //Calling the implemented abstract method
+        b.callme();
+
+        //Calling the concrete method inherited from class A
+        b.callmetoo();
+
+    }
 }
