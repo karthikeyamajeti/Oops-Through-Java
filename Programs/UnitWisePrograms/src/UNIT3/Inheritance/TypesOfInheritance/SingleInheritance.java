@@ -1,4 +1,4 @@
-package UNIT3.Inheritance.TypesOfInheritance;
+package UNIT3.Inheritance.TypesofInheritance;
 //WAP in Java to demonstrate single inheritance.
 class Animal1 {
 

@@ -1,4 +1,4 @@
-package UNIT3.Inheritance.UseOfKeyWordFinal;
+package UNIT3.Inheritance.UseOfKeywordFinal;
 //WAP in Java to demonstrate the use of final method.
 /*
 class Vehicle2 {
