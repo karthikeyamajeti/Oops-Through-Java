@@ -1,4 +1,4 @@
-package UNIT3.Inheritance.SuperKeyword;
+package UNIT3.Inheritance.UseofKeywordSuper;
 //WAP in Java to demonstrate the use of super keyword to call the superclass method.
 //Defining the superclass Student
 class Student {
