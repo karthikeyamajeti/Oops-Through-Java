@@ -1,22 +1,34 @@
+package UNIT3.Interface;
+//WAP in Java to demonstrate static methods in interfaces.
+
 interface NewInterface {
-    static void staticMethod()    // static method
-    {
-        System.out.println("Hello, I am  Static Method");
+    
+    //Defining the static method
+    static void staticMethod() {
+        System.out.println("Hello, I am Static Method");
     }
-   // Public and abstract method of Interface
+
+    //Declaring the abstract method
     void overrideMethod(String str);
-} 
+}
+
 public class StaticMethodDemo implements NewInterface {
-     
-	// Implementing interface method
-	@Override
-    public void overrideMethod(String str){ 
-		System.out.println(str);
-    }	
-	public static void main(String[] args)
-    {
-        StaticMethodDemo s= new StaticMethodDemo();
-        s.overrideMethod("Hello, I am override Method"); 
-		NewInterface.staticMethod();
+    
+    //Implementing the interface method
+    @java.lang.Override
+    public void overrideMethod(String str) {
+        System.out.println(str);
+    }
+
+    public static void main(String[] args) {
+        
+        //Creating an object of StaticMethodDemo
+        StaticMethodDemo s = new StaticMethodDemo();
+
+        //Calling the implemented interface method
+        s.overrideMethod("Hello, I am override Method");
+
+        //Calling the static method using the interface name
+        NewInterface.staticMethod();
     }
 }
