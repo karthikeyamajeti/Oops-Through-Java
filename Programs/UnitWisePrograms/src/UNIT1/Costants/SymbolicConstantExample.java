@@ -1,6 +1,6 @@
-package UNIT1;
+package UNIT1.Costants;
 //WAP in Java to demonstrate the use of symbolic constants to calculate the perimeter of a circle.
-public class SymbolicConstants {
+public class SymbolicConstantExample {
     public static void main(String[] args) {
 	//Declaring a symbolic constant PI
 	final double PI = 3.1415926535;
