@@ -1,7 +1,7 @@
-package UNIT5.Thread;
+package UNIT5.MultiThreadedProgramming;
 //WAP in Java to demonstrate the current thread, changing its name, priority and using the sleep() method.
 
-public class CurrentThread {
+public class ThreadExample1 {
 
     public static void main(String arg[]) throws Exception {
 
