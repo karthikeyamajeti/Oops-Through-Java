@@ -26,7 +26,7 @@ class MyClass15 extends Thread {
     }
 }
 
-public class ThreadExtendingExample2 {
+public class EvenOddUsingThreads {
 
     public static void main(String arg[]) {
 

@@ -13,21 +13,27 @@ class MyClass14 extends Thread {
             System.out.println(i);
 
             try {
+
                 //Pausing the thread for 5 seconds
-                sleep(5000);
+                Thread.sleep(5000);
+
             }
-            catch (Exception e) {
-                //Handling exceptions
+            catch (InterruptedException e) {
+
+                //Handling the interrupted exception
+                System.out.println(e);
+
             }
+
         }
     }
 }
 
-public class ThreadExtendingExample1 {
+public class ThreadNumberPrintingWithDelay{
 
     public static void main(String arg[]) {
 
-        //Creating an object of MyClass
+        //Creating an object of MyClass14
         MyClass14 mc = new MyClass14();
 
         //Starting the child thread

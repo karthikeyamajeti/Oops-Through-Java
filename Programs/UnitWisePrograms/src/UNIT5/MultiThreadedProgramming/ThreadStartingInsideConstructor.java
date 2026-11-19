@@ -29,7 +29,7 @@ class MyClass16 extends Thread {
     }
 }
 
-public class ThreadExtendingExample3 {
+public class ThreadStartingInsideConstructor{
 
     public static void main(String arg[]) {
 
