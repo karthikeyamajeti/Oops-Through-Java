@@ -18,7 +18,7 @@ class MyClass22 extends Thread
 		}
 	}
 }
-class ThreadExtendsMultiple 
+public class ThreadExtendsMultiple123
 {
 	public static void main(String arg[])
 	{
