@@ -1,10 +1,10 @@
 package UNIT5.MultiThreadedProgramming;
 //WAP in Java to demonstrate thread priorities using high, medium and low priority threads.
 
-class Priority extends Thread {
+public class TypesOfPriority extends Thread {
 
     //Creating a constructor to initialize the thread name
-    public Priority(String name) {
+    public TypesOfPriority(String name) {
         super(name);
     }
 
@@ -23,9 +23,9 @@ class Priority extends Thread {
     public static void main(String[] args) {
 
         //Creating high, medium and low priority threads
-        Priority hpt = new Priority("High-Priority Thread");
-        Priority mpt = new Priority("Medium-Priority Thread");
-        Priority lpt = new Priority("Low-Priority Thread");
+        TypesOfPriority hpt = new TypesOfPriority("High-Priority Thread");
+        TypesOfPriority mpt = new TypesOfPriority("Medium-Priority Thread");
+        TypesOfPriority lpt = new TypesOfPriority("Low-Priority Thread");
 
         //Setting the priorities of the threads
         hpt.setPriority(Thread.MAX_PRIORITY);

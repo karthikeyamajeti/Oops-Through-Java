@@ -7,15 +7,22 @@ class MyClass17 extends Thread {
 
     //Creating a constructor to initialize the thread name and start the thread
     MyClass17(String n) {
+
         name = n;
+
+        //Setting the thread name
+        setName(n);
+
+        //Starting the thread
         start();
+
     }
 
     //Overriding the run() method to define thread execution
     public void run() {
 
         //Printing numbers from 0 to 19
-        for (int i = 0; i < 20; i++) {
+        for(int i=0; i<20; i++) {
 
             try {
 
@@ -23,16 +30,21 @@ class MyClass17 extends Thread {
                 System.out.println(name + ":" + i);
 
                 //Pausing the thread for 1 second
-                sleep(1000);
+                Thread.sleep(1000);
+
             }
-            catch (Exception e) {
-                //Handling exceptions
+            catch (InterruptedException e) {
+
+                //Handling the interrupted exception
+                System.out.println(e);
+
             }
+
         }
     }
 }
 
-public class ThreadExtendsMultiple{
+public class ThreadCreationWithNames{
 
     public static void main(String arg[]) {
 

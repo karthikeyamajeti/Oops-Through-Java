@@ -69,13 +69,13 @@ class MyClass20 extends Thread {
     }
 }
 
-public class MultipleThreadExample1{
+public class EvenOddThreadExample{
 
     public static void main(String ar[]) {
 
         //Creating two thread objects
-        MyClass1 mc1 = new MyClass1();
-        MyClass2 mc2 = new MyClass2();
+        MyClass10 mc1 = new MyClass10();
+        MyClass20 mc2 = new MyClass20();
 
         //Assigning names to the threads
         mc1.setName("Even: ");

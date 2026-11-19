@@ -1,7 +1,7 @@
 package UNIT5.MultiThreadedProgramming;
 //WAP in Java to demonstrate creating Thread objects using default and parameterized constructors.
 
-public class ThreadObjectsUsingDefaultAndParameterizedConstructors{
+public class ThreadConstructorExample{
 
     public static void main(String arg[]) {
 

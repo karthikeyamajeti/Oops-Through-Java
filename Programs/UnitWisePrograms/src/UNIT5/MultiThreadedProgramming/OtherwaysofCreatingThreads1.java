@@ -1,12 +1,12 @@
 package UNIT5.MultiThreadedProgramming;
 //WAP in Java to demonstrate different ways of creating threads using method reference, lambda expression, and anonymous inner class.
 
-public class OtherwaysofCreatingThreads{
+public class OtherwaysofCreatingThreads1{
 
     public static void main(String[] args) {
 
         //Creating a thread using method reference
-        new Thread(OtherwaysofCreatingThreads::method1).start();
+        new Thread(OtherwaysofCreatingThreads1::method1).start();
 
         //Creating a thread using lambda expression
         new Thread(() -> method2()).start();

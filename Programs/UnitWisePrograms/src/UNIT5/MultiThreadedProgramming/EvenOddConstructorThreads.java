@@ -79,7 +79,7 @@ class MyClass22 extends Thread {
     }
 }
 
-public class MultipleThreadExample2{
+public class EvenOddConstructorThreads{
 
     public static void main(String ar[]) {
 

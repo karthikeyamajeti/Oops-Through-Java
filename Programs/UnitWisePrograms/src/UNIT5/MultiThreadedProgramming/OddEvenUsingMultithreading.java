@@ -24,7 +24,7 @@ class MyClass extends Thread {
     }
 }
 
-public class ThreadExample2 {
+public class OddEvenUsingMultithreading{
 
     public static void main(String ad[]) {
 
@@ -37,9 +37,9 @@ public class ThreadExample2 {
         try {
 
             //Printing even numbers from 0 to 199 using the parent thread
-            for (int i = 0; i < 200; i++) {
+            for (int i=0; i<200; i++) {
 
-                if (i % 2 == 0) {
+                if(i%2 == 0){
                     System.out.println("Parent:" + i);
 
                     //Pausing the parent thread for 1 second

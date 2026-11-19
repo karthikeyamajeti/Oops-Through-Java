@@ -67,7 +67,7 @@ class MyClass3 extends Thread {
     }
 }
 
-public class MultipleThreadsExecution{
+public class MultipleThreadsWithDifferentSleep{
 
     public static void main(String ar[]) {
 

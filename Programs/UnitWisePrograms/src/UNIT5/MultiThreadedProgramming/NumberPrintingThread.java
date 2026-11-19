@@ -1,7 +1,7 @@
-package UNIT5.Thread;
+package UNIT5.MultiThreadedProgramming;
 //WAP in Java to demonstrate thread creation by extending the Thread class and printing numbers from 0 to 199.
 
-class MyClass extends Thread {
+class MyClass6 extends Thread {
 
     //Overriding the run() method to define thread execution
     public void run() {
@@ -24,12 +24,12 @@ class MyClass extends Thread {
     }
 }
 
-public class ThreadExample20 {
+public class NumberPrintingThread{
 
     public static void main(String arg[]) {
 
         //Creating an object of MyClass
-        MyClass mc = new MyClass();
+        MyClass6 mc = new MyClass6();
 
         //Starting the child thread
         mc.start();

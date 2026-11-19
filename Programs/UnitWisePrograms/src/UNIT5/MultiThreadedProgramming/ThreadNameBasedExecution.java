@@ -3,12 +3,11 @@ package UNIT5.MultiThreadedProgramming;
 
 class MyClass11 extends Thread {
 
-    String name;
-
     //Creating a constructor to initialize the thread name and start the thread
     MyClass11(String n) {
 
-        name = n;
+        //Setting the thread name
+        setName(n);
 
         //Starting the thread
         start();
@@ -33,7 +32,7 @@ class MyClass11 extends Thread {
                     System.out.println("Siddhartha");
 
                     //Pausing the thread for 3 seconds
-                    sleep(3000);
+                    Thread.sleep(3000);
 
                 }
                 else {
@@ -42,20 +41,23 @@ class MyClass11 extends Thread {
                     System.out.println("PVP");
 
                     //Pausing the thread for 3 seconds
-                    sleep(3000);
+                    Thread.sleep(3000);
 
                 }
 
             }
-            catch (Exception e) {
-                //Handling exceptions
+            catch (InterruptedException e) {
+
+                //Handling the interrupted exception
+                System.out.println(e);
+
             }
 
         }
     }
 }
 
-public class ThreadPractice {
+public class ThreadNameBasedExecution{
 
     public static void main(String arg[]) {
 

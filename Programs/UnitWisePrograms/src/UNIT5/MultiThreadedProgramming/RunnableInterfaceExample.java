@@ -11,7 +11,7 @@ class MyRunnable implements Runnable {
     }
 }
 
-public class ThreadClassByImplementingRunnable {
+public class RunnableInterfaceExample{
 
     public static void main(String[] args) {
 

@@ -7,17 +7,15 @@ class MyClassDemo extends Thread {
     public void run() {
 
         //Printing numbers from 0 to 19
-        for (int i = 0; i < 20; i++) {
+        for(int i=0; i<20; i++){
 
             //Displaying the thread name and current number
-            System.out.println(getName() + " : " + i);
-
+            System.out.println(getName()+" : "+i);
             try {
-
                 //Pausing the current thread for 1 second
                 sleep(1000);
             }
-            catch (Exception e) {
+            catch(Exception e){
                 //Handling exceptions
             }
         }
@@ -52,6 +50,5 @@ public class DemonstratingUseofJoinMethod {
 
         //Starting the third thread
         mc3.start();
-
     }
 }

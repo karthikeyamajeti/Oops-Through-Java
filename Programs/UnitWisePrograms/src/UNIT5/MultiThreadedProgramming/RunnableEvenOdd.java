@@ -60,7 +60,7 @@ class MyClass23 implements Runnable {
     }
 }
 
-public class MultipleThreadUsingRunnableInterfacetoprintEvenAndOdd{
+public class RunnableEvenOdd{
 
     public static void main(String arh[]) {
 
